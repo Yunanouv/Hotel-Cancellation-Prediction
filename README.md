@@ -94,5 +94,88 @@ A dataset containing historical hotel booking records, including information suc
   * Canceled Bookings: 2,414 bookings were canceled (constitute 23.66% of total bookings).
 
 ## Data Cleaning and Preparation   
-1. Impute Missing values in Country
-2. 
+1. Impute Missing values in Country with mode  
+2. Cheking outliers using IQR. Will be handled in Preprocessing   
+3. Feature Selection Using Permutation Importance and Statistical Test. The less importance features are `days_in_waiting_list`, `country`, and `total_of_special_requests`.   
+4. Check label ambiguity with 2 occurences. Found 251 combination of features   
+5. Delete duplicated, unified value, etc.
+
+## Modeling  
+**1. Business Simulation**
+
+* Average Room price: EUR 99 per night (based on [Budget Your Trip](https://www.budgetyourtrip.com/portugal) - average hotel price in Portugal).  
+* Marketing budget comprised roughly 13.6% of a company’s total budget according to [Deloitte](https://blog.hubspot.com/marketing/marketing-budget-percentage).  
+
+* We're predicting booking cancellations to prevent revenue loss (False Negative) plus additional metrics : extra marketing cost (False Positive).
+
+**2. Financial Impact**
+
+
+* **False Positive-FP** (Type I Error):  
+The model predicts that a booking will be canceled, but it actually is not canceled. Cost incurred when a room is predicted to be canceled but is not, leading to potential additional marketing cost to re-engage customer (marketing so customer will rebook) after we predict that customer is canceled but actually we don't need marketing budget.
+
+  Potential marketing cost to re-engage each customer that we predict is canceled is **\$13.46** . This comes from :  
+  Total Revenue x 13.6%  =   
+  USD 62,271 x 13.6% =  USD 8,469 (Total marketing budget)  
+
+  Total marketing budget/Total Booked  =  
+  USD8,469 / 629 =  USD 13.46 (Marketing cost to get 1 booking)   
+
+* **True Positive-TP**  
+The model predicts that a booking will be canceled and actually canceled. **Marketing Cost $13.46**.
+
+* **True Negative**
+The model predicts that the customer will be booked and actually booked. We can **approximate revenue gained** by correctly predicting booked customers.
+  
+* **False Negative-FN** (Type II Error)   
+A booking predicted to not cancel, which actually cancels. This typically results in **revenue loss** because the hotel might not have enough time to rebook the room, which is the same amount of hotel price **\$99**.
+
+**3. Financial Impact Without Modeling:**
+
+* Without any predictive model, we have a historical cancellation rate of 36.85%.
+
+* **Calculation:**
+
+ * **Total booked:** 629.  
+ * **Cancellation**
+   * 367 cancellations from historical data (36.85%)
+   * 200 cancellations from data test => Assume all of them are canceled
+
+ * **Total Loss**
+   * **Total Revenue Loss Without Modeling:**  
+     200 cancellations * USD 99 = USD 19,800
+    * **Total Potental Additional Cost for Marketing:**  
+     200 cancellations *  USD 13.46 =  USD 2,692
+ * **Total Loss:**   
+     USD 19,800 +  USD 2,692 = **\$22,492**
+* This calculation have been calculated **without** consideration of any **deposit type**. The assumption if there's no deposit paid.
+* This calculation is **the maximum revenue loss we will get** without modelling.
+
+## Model Performance  
+
+### Benchmark Model  
+<br>
+
+<img width="555" alt="image" src="https://github.com/user-attachments/assets/8a2b66dc-3b8d-4cd9-aa4a-fd2a6924267e">
+<br>
+
+The result above is the testing for the base model where we performed One Hot Encoding and Binary Encoding   
+
+**Experiments**
+ * Robust Scaler   
+ * Polynomial Features
+ * Scaler and Polynomial Features
+
+**The Best Model is Logistic Regression from the base model**  
+
+**Before and After Hyperparameter Tuning Logistic Regression**
+________________
+
+|  | Accuracy | Precision | Recall | F1 Score |F2 Score|ROC AUC|Revenue Loss|
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Before | 0.79 | 0.64 | 0.96 | 0.77 | 0.87 | 0.85 | 1791.06
+| After | 0.79 | 0.64 | 0.97 | 0.77 | 0.88 | 0.82 | 1718.98 |
+
+We can see that hyperparameter tuning give a better result since our model already perform well. Recall, F2, and Revenue Loss are increased from the previous model performance. Thus, we choose the Tuned Logistic Regression model for our final model.
+
+We can see that hyperparameter tuning give a better result since our model already perform well. Recall, F2, and Revenue Loss are increased from the previous model performance. Thus, we choose the Tuned Logistic Regression model for our final model.
