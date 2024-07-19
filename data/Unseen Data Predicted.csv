@@ -1,0 +1,201 @@
+market_segment,previous_cancellations,booking_changes,deposit_type,customer_type,reserved_room_type,required_car_parking_spaces,Prediction,Probabilities
+Direct,0,0,No Deposit,Group,C,0,0,0.421259917
+Direct,0,0,No Deposit,Group,D,1,0,0.07043037844
+Direct,0,0,No Deposit,Group,F,0,0,0.483106868
+Online TA,0,0,No Deposit,Contract,B,1,0,0.1111842427
+Offline TA/TO,0,0,No Deposit,Contract,A,1,0,0.181357185
+Direct,0,0,No Deposit,Transient,E,1,0,0.115370408
+Direct,0,0,No Deposit,Transient,G,1,0,0.1254651436
+Groups,0,0,No Deposit,Transient,A,1,0,0.2042177221
+Groups,0,0,No Deposit,Transient,F,1,0,0.2058710222
+Corporate,1,0,No Deposit,Transient,A,1,0,0.1964226006
+Corporate,1,0,No Deposit,Transient,D,1,0,0.2119104256
+Online TA,0,0,No Deposit,Transient,E,1,0,0.2010278814
+Complementary,2,0,No Deposit,Transient,A,1,0,0.123243516
+Complementary,0,0,No Deposit,Transient,A,1,0,0.1144651963
+Offline TA/TO,0,0,No Deposit,Transient,G,1,0,0.2216835689
+Offline TA/TO,0,0,No Deposit,Transient,F,1,0,0.2615206526
+Offline TA/TO,0,0,No Deposit,Transient,C,1,0,0.2161771094
+Direct,0,0,No Deposit,Transient-Party,E,1,0,0.08151898056
+Direct,0,0,No Deposit,Transient-Party,B,1,0,0.0652686319
+Direct,0,0,No Deposit,Transient-Party,D,1,0,0.1167563225
+Online TA,0,0,No Deposit,Transient-Party,A,1,0,0.1882028162
+Online TA,0,0,No Deposit,Transient-Party,A,2,0,0.01696582018
+Groups,0,0,No Deposit,Group,A,0,1,0.5734948928
+Aviation,0,0,No Deposit,Group,A,0,1,0.7091611912
+Corporate,0,0,No Deposit,Group,A,0,1,0.5512027918
+Online TA,0,0,No Deposit,Group,A,0,1,0.6409287627
+Online TA,0,0,No Deposit,Group,G,0,1,0.5918789084
+Offline TA/TO,0,0,No Deposit,Group,P,0,1,0.702252251
+Groups,1,0,No Deposit,Contract,A,0,1,0.6943518489
+Online TA,0,0,No Deposit,Contract,F,0,1,0.7449833479
+Offline TA/TO,0,0,No Deposit,Contract,A,0,1,0.7484821554
+Offline TA/TO,1,0,No Deposit,Contract,E,0,1,0.6962373604
+Offline TA/TO,1,0,No Deposit,Contract,D,0,1,0.7734363239
+Offline TA/TO,0,0,No Deposit,Contract,C,0,1,0.7007079126
+Direct,0,0,No Deposit,Transient,E,0,1,0.6366125662
+Direct,1,0,No Deposit,Transient,F,0,1,0.7141810332
+Direct,0,0,No Deposit,Transient,H,0,1,0.6025703197
+Direct,3,0,No Deposit,Transient,A,0,1,0.7289869387
+Direct,11,0,No Deposit,Transient,E,0,1,0.7353401826
+Groups,1,0,Non Refund,Transient,E,0,1,0.8273107538
+Aviation,0,0,No Deposit,Transient,E,0,1,0.8219692226
+Aviation,1,0,No Deposit,Transient,D,0,1,0.8776161312
+Corporate,0,0,No Deposit,Transient,E,0,1,0.6992995286
+Corporate,0,0,No Deposit,Transient,C,0,1,0.7124101681
+Corporate,4,0,No Deposit,Transient,A,0,1,0.7882966633
+Online TA,0,0,No Deposit,Transient,D,0,1,0.8342709002
+Online TA,0,0,No Deposit,Transient,A,0,1,0.8206631262
+Online TA,1,0,No Deposit,Transient,C,0,1,0.7896656714
+Online TA,0,0,Refundable,Transient,E,0,1,0.7406975986
+Online TA,0,0,Non Refund,Transient,A,0,1,0.891972443
+Online TA,0,0,Non Refund,Transient,G,0,1,0.8702746712
+Online TA,1,0,No Deposit,Transient,B,0,1,0.7349521512
+Complementary,0,0,No Deposit,Transient,G,0,1,0.585194003
+Complementary,4,0,No Deposit,Transient,G,0,1,0.6252377649
+Complementary,5,0,No Deposit,Transient,A,0,1,0.6816633664
+Complementary,0,0,No Deposit,Transient,E,0,1,0.5618750952
+Complementary,0,0,No Deposit,Transient,C,0,1,0.577356181
+Complementary,0,0,No Deposit,Transient,A,0,1,0.6345512158
+Complementary,3,0,No Deposit,Transient,F,0,1,0.6654585517
+Complementary,4,0,No Deposit,Transient,F,0,1,0.6747268175
+Complementary,0,0,No Deposit,Transient,B,0,1,0.5022283006
+Offline TA/TO,6,0,Non Refund,Transient,A,0,1,0.9161579259
+Offline TA/TO,0,0,No Deposit,Transient,E,0,1,0.7766888424
+Offline TA/TO,0,0,No Deposit,Transient,F,0,1,0.826300674
+Offline TA/TO,0,0,Non Refund,Transient,A,0,1,0.8947016165
+Direct,1,0,No Deposit,Transient-Party,A,0,1,0.627327965
+Direct,0,0,No Deposit,Transient-Party,C,0,1,0.5594626404
+Direct,0,0,No Deposit,Transient-Party,E,0,1,0.5438439661
+Groups,11,0,No Deposit,Transient-Party,A,0,1,0.7881660185
+Groups,2,0,No Deposit,Transient-Party,E,0,1,0.6532933378
+Groups,0,0,Refundable,Transient-Party,A,0,1,0.66473713
+Groups,0,0,Refundable,Transient-Party,E,0,1,0.5942252936
+Groups,1,0,No Deposit,Transient-Party,A,0,1,0.7098460698
+Aviation,0,0,No Deposit,Transient-Party,A,0,1,0.8096748164
+Corporate,3,0,No Deposit,Transient-Party,A,0,1,0.7084560778
+Online TA,0,0,Non Refund,Transient-Party,B,0,1,0.7655417212
+Online TA,1,0,No Deposit,Transient-Party,D,0,1,0.7813013796
+Complementary,0,0,No Deposit,Transient-Party,D,0,1,0.5651978093
+Offline TA/TO,0,0,No Deposit,Transient-Party,E,0,1,0.702996806
+Corporate,0,1,No Deposit,Group,A,0,0,0.475515497
+Corporate,0,1,No Deposit,Transient,D,1,0,0.1599066131
+Corporate,0,1,No Deposit,Transient,B,1,0,0.09135855525
+Online TA,0,1,No Deposit,Transient,D,1,0,0.2166906025
+Online TA,0,1,No Deposit,Transient,G,2,0,0.01498235545
+Offline TA/TO,0,1,No Deposit,Transient,A,1,0,0.2055810096
+Direct,0,1,No Deposit,Transient-Party,C,1,0,0.06523619892
+Direct,0,1,No Deposit,Transient-Party,D,1,0,0.08890651067
+Direct,0,1,No Deposit,Transient-Party,B,0,0,0.4091252106
+Direct,0,1,No Deposit,Transient-Party,E,0,0,0.4681131815
+Groups,0,1,No Deposit,Transient-Party,A,1,0,0.1141988534
+Groups,0,1,Refundable,Transient-Party,A,1,0,0.09825336349
+Groups,0,1,No Deposit,Transient-Party,A,2,0,0.009506156277
+Groups,0,1,No Deposit,Transient-Party,E,1,0,0.08694125562
+Online TA,0,1,No Deposit,Transient-Party,H,1,0,0.09860691499
+Online TA,0,1,No Deposit,Transient-Party,C,1,0,0.1186642396
+Offline TA/TO,2,1,No Deposit,Group,A,0,1,0.5958846228
+Direct,0,1,No Deposit,Contract,A,0,1,0.5252792666
+Online TA,0,1,No Deposit,Contract,D,0,1,0.7013425155
+Online TA,1,1,No Deposit,Contract,A,0,1,0.6900320149
+Offline TA/TO,0,1,No Deposit,Contract,E,0,1,0.6186846666
+Direct,13,1,No Deposit,Transient,D,0,1,0.7686256367
+Direct,1,1,No Deposit,Transient,G,0,1,0.5973480748
+Direct,0,1,No Deposit,Transient,H,0,1,0.5281298397
+Direct,0,1,No Deposit,Transient,B,0,1,0.5043202288
+Direct,1,1,No Deposit,Transient,F,0,1,0.6484492796
+Direct,0,1,No Deposit,Transient,C,0,1,0.5793967947
+Groups,0,1,No Deposit,Transient,A,0,1,0.71789132
+Groups,0,1,Non Refund,Transient,A,0,1,0.8211602318
+Groups,1,1,No Deposit,Transient,A,0,1,0.7263044134
+Corporate,0,1,No Deposit,Transient,A,0,1,0.6991877035
+Online TA,1,1,No Deposit,Transient,G,0,1,0.7410755376
+Online TA,11,1,No Deposit,Transient,D,0,1,0.8549360309
+Online TA,0,1,No Deposit,Transient,E,0,1,0.7138756552
+Complementary,0,1,No Deposit,Transient,A,0,1,0.5617441927
+Direct,0,1,No Deposit,Transient-Party,F,0,1,0.546227263
+Groups,0,1,No Deposit,Transient-Party,G,0,1,0.5845553802
+Groups,0,1,Non Refund,Transient-Party,E,0,1,0.697695389
+Groups,0,1,No Deposit,Transient-Party,D,0,1,0.6557741647
+Groups,0,1,No Deposit,Transient-Party,E,0,1,0.5612274896
+Groups,0,1,No Deposit,Transient-Party,C,0,1,0.5767142196
+Corporate,0,1,Non Refund,Transient-Party,E,0,1,0.6782529032
+Online TA,0,1,No Deposit,Transient-Party,D,0,1,0.7166269842
+Online TA,0,1,No Deposit,Transient-Party,C,0,1,0.6439550932
+Online TA,0,1,No Deposit,Transient-Party,H,0,1,0.5950574514
+Offline TA/TO,0,1,No Deposit,Transient-Party,F,0,1,0.7049996234
+Offline TA/TO,0,1,No Deposit,Transient-Party,A,0,1,0.7028857716
+Groups,0,2,No Deposit,Group,A,0,0,0.4228776415
+Offline TA/TO,0,2,No Deposit,Group,A,1,0,0.06934671042
+Groups,0,2,No Deposit,Contract,C,0,0,0.4829213683
+Direct,0,2,No Deposit,Transient,D,1,0,0.09571721421
+Direct,0,2,No Deposit,Transient,H,0,0,0.4524169916
+Corporate,1,2,No Deposit,Transient,A,1,0,0.1175434848
+Corporate,0,2,No Deposit,Transient,A,1,0,0.1132637822
+Online TA,0,2,No Deposit,Transient,F,1,0,0.1579156288
+Complementary,1,2,No Deposit,Transient,A,0,0,0.4966557175
+Complementary,0,2,No Deposit,Transient,B,0,0,0.354759537
+Offline TA/TO,0,2,No Deposit,Transient,C,1,0,0.1306548416
+Direct,0,2,No Deposit,Transient-Party,B,0,0,0.3382436496
+Direct,0,2,No Deposit,Transient-Party,D,1,0,0.0671943191
+Groups,0,2,No Deposit,Transient-Party,B,0,0,0.4262261924
+Offline TA/TO,0,2,No Deposit,Transient-Party,A,1,0,0.1150480844
+Offline TA/TO,0,2,No Deposit,Contract,E,0,1,0.5449832874
+Offline TA/TO,0,2,No Deposit,Contract,D,0,1,0.6407899177
+Direct,0,2,No Deposit,Transient,F,0,1,0.56629604
+Groups,0,2,Non Refund,Transient,A,0,1,0.7721831845
+Groups,0,2,No Deposit,Transient,A,0,1,0.6525977817
+Aviation,0,2,No Deposit,Transient,A,0,1,0.7730592482
+Corporate,0,2,No Deposit,Transient,A,0,1,0.6317855973
+Online TA,0,2,No Deposit,Transient,D,0,1,0.7328454539
+Online TA,0,2,No Deposit,Transient,A,0,1,0.713767032
+Online TA,0,2,No Deposit,Transient,B,0,1,0.5916696612
+Online TA,0,2,No Deposit,Transient,C,0,1,0.6623732666
+Offline TA/TO,0,2,No Deposit,Transient,F,0,1,0.721625064
+Groups,0,2,Non Refund,Transient-Party,A,0,1,0.6975832254
+Corporate,0,2,No Deposit,Transient-Party,A,0,1,0.5386776938
+Corporate,0,2,No Deposit,Transient-Party,D,0,1,0.5622693971
+Online TA,0,2,No Deposit,Transient-Party,F,0,1,0.6315865692
+Corporate,0,3,No Deposit,Group,D,0,0,0.3521149565
+Online TA,0,3,No Deposit,Group,A,0,0,0.4179373213
+Groups,0,3,No Deposit,Contract,A,0,0,0.4670411368
+Direct,0,3,No Deposit,Transient,H,0,0,0.3788439826
+Direct,1,3,No Deposit,Transient,A,0,0,0.4987476913
+Direct,0,3,No Deposit,Transient,E,0,0,0.4133939394
+Corporate,0,3,No Deposit,Transient,A,1,0,0.08616577248
+Online TA,0,3,No Deposit,Transient,H,1,0,0.08054004801
+Groups,0,3,No Deposit,Transient-Party,E,1,0,0.04932863586
+Offline TA/TO,0,3,No Deposit,Contract,D,0,1,0.5683803825
+Offline TA/TO,0,3,No Deposit,Contract,A,0,1,0.5448514262
+Direct,0,3,No Deposit,Transient,D,0,1,0.5121028294
+Aviation,0,3,No Deposit,Transient,A,0,1,0.7154735994
+Online TA,0,3,No Deposit,Transient,C,0,1,0.5915411893
+Online TA,0,3,Refundable,Transient,A,0,1,0.6087282549
+Direct,0,4,No Deposit,Group,A,0,0,0.2155257404
+Direct,0,4,No Deposit,Transient,E,0,0,0.342201128
+Direct,0,4,No Deposit,Transient,G,1,0,0.04086113841
+Online TA,0,4,No Deposit,Transient,G,1,0,0.07594812122
+Groups,0,4,No Deposit,Transient-Party,D,1,0,0.05397038237
+Corporate,0,4,No Deposit,Transient-Party,A,1,0,0.0452266077
+Aviation,0,4,No Deposit,Transient,A,0,1,0.6498933829
+Online TA,0,4,No Deposit,Transient,E,0,1,0.5009095307
+Offline TA/TO,0,4,No Deposit,Transient-Party,D,0,1,0.5114456234
+Direct,0,5,No Deposit,Transient,F,1,0,0.03762982626
+Direct,0,5,No Deposit,Transient,D,0,0,0.3638540149
+Direct,0,5,No Deposit,Transient,F,0,0,0.3443678695
+Online TA,0,5,No Deposit,Transient,A,1,0,0.06948635011
+Direct,0,5,No Deposit,Transient-Party,E,1,0,0.01908420377
+Online TA,0,6,No Deposit,Transient,A,0,0,0.425449517
+Groups,0,6,No Deposit,Transient-Party,A,0,0,0.2751638832
+Complementary,0,7,No Deposit,Transient,F,0,0,0.1732306741
+Groups,0,7,No Deposit,Transient-Party,A,0,0,0.2188933991
+Groups,0,7,No Deposit,Transient-Party,C,0,0,0.180644202
+Offline TA/TO,0,7,No Deposit,Transient-Party,A,0,0,0.2768360232
+Online TA,0,8,No Deposit,Transient-Party,A,1,0,0.02003345468
+Online TA,0,8,No Deposit,Transient-Party,D,1,0,0.02199374716
+Groups,0,9,No Deposit,Transient-Party,A,0,0,0.1324781579
+Online TA,0,10,No Deposit,Transient,A,0,0,0.1802530632
+Online TA,0,12,No Deposit,Transient,A,0,0,0.1070026485
+Online TA,0,13,No Deposit,Transient,A,0,0,0.08126531475
+Online TA,0,14,No Deposit,Transient,A,0,0,0.06129366765
+Corporate,0,14,No Deposit,Transient-Party,A,0,0,0.02966837467
