@@ -151,6 +151,32 @@ A booking predicted to not cancel, which actually cancels. This typically result
 * This calculation have been calculated **without** consideration of any **deposit type**. The assumption if there's no deposit paid.
 * This calculation is **the maximum revenue loss we will get** without modelling.
 
+**4. Scenario with Modeling**  
+
+Based on the confusion matrix, we can calculate the cost-saving calculation from 200 unseen data. We already got this number from our evaluation metrics from our model, but this is the calculation behind it.  
+
+TP (Predict Canceled, Actual Not Canceled) : 72  
+TN (Predict Not Canceled, Actual Not Canceled) : 85  
+FP (Predict Canceled, Actual Not Canceled) : 41  
+FN (Predict Not Canceled, Actual Canceled) : 2  
+
+Given the matrix above :
+TP : 72 x 969.12  
+FP : 41 x 551.86   
+FN : 2 x 198  
+
+Total Revenue Loss : $1,718.98  
+
+**5. Comparison:**  
+
+Without modeling: Potential revenue loss: $22,492.  
+
+With modeling: Potential revenue loss: $1,718.98.  
+
+Impact of modeling:
+Reduction in potential revenue loss: 1,718.98 = $20,773.02
+The model can save $20,773. 
+
 ## Model Performance  
 
 ### Benchmark Model  
